@@ -1,0 +1,179 @@
+\begin{frame}{Chimie:}
+
+\includegraphics{resin.png}\\
+
+\end{frame}
+
+\begin{frame}{Chimie}
+
+\begin{block}{Reactions chimiques poudre/laser et resine/laser}
+
+\begin{itemize}
+\item
+  Duree d'exposition
+\item
+  intensite
+\item
+  longueur d'onde optimale par rapport aux resines, tolerance de la
+  longueur d'onde du laser
+\item
+  Temperatures ambiante pour la poudre, densite pour tamisage de la
+  poudre
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Optique}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{optics.jpeg}
+\caption{}
+\end{figure}
+
+\begin{block}{\# Optique}
+
+\end{block}
+
+\begin{block}{Optique laser/miroiterie}
+
+\begin{itemize}
+\item
+  Influence de la taille de la tache sur la resolution de la piece
+\item
+  Choix des types de miroir/ls/lentille (resistance aux uv et ir selon
+  l'intensite, pas de filtrage)
+\item
+  echauffement de la miroiterie/laser
+\item
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{electronique}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{electronic.jpg}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{electronique}
+
+\begin{block}{circuits electroniques Arduino/raspberry pi}
+
+\begin{itemize}
+\item
+  Se documenter en electronique
+\item
+  communication avec le laser (binaire/analogique en Volt)
+\item
+  Ajustabilite des lasers
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{Programmation}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{programming.jpg}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Programmation}
+
+\begin{block}{Programmation code principal / IHM}
+
+\begin{itemize}
+\item
+  Communication entre raspberry pi et arduino (binaire, i2c)
+\item
+  C++ / qt
+\item
+  Interpretation G code
+\end{itemize}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{reseau}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{networking.jpg}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{reseau}
+
+\end{frame}
+
+\begin{frame}{Mecanique}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{mechanics.jpg}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Mecanique}
+
+\end{frame}
+
+\begin{frame}{LINKS}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{links.jpeg}
+\caption{}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{LINKS}
+
+\begin{block}{Chimie}
+
+\end{block}
+
+\begin{block}{optique}
+
+\end{block}
+
+\begin{block}{electronique}
+
+\end{block}
+
+\begin{block}{Programmation}
+
+\end{block}
+
+\end{frame}
+
+\begin{frame}{LINKS}
+
+\begin{block}{Reseau}
+
+\end{block}
+
+\begin{block}{Mecanique}
+
+\end{block}
+
+\end{frame}
