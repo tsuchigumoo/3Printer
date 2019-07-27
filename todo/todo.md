@@ -122,6 +122,25 @@ colortheme:
 
 ## Reseau
 
+## Linux-RT
+
+ - Général :
+  - https://rt.wiki.kernel.org/index.php/Main_Page
+  - https://rt.wiki.kernel.org/index.php/HOWTO:_Build_an_RT-application
+ - Interupt & context switch :
+  - https://www.quora.com/What-is-the-difference-between-context-switching-and-interrupt-handling
+  - https://notes.shichao.io/lkd/ch7/
+  - https://fr.wikipedia.org/wiki/Interruption_mat%C3%A9rielle
+ - Préemption :
+  - https://devarea.developpez.com/linux-comprendre-preemption-noyau/
+  - https://fr.wikipedia.org/wiki/Multit%C3%A2che_pr%C3%A9emptif
+ - Latency :
+  - http://people.redhat.com/williams/latency-howto/rt-latency-howto.txt
+ - Jitter :
+  - https://www.youtube.com/watch?v=K44eRt852vs
+  - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwjDhof0odXjAhW85OAKHTKiC48QFjAEegQIAxAC&url=https%3A%2F%2Fwww.captronic.fr%2Fdocrestreint.api%2F2137%2Fa536f4bcc9ec4cd16ba821ebe9148dfdefcd70c9%2Fpdf%2F2_LINUXRT.pdf&usg=AOvVaw3U_sXhBrH2ROZliTbEPA1P
+
+
 ## Mecanique
 
 
