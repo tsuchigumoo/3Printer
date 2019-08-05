@@ -86,8 +86,8 @@ colortheme:
 
 ## Programmation RT / PLC
  - Optimiser le système :
-  -- Code et language+biblio opti au RT (norme GRAFCET utile également)
-  -> Noyau RT (et tester différentes configurations)
+ ░░░░- Code et language+biblio opti au RT (norme GRAFCET utile également)
+  - Noyau RT (et tester différentes configurations)
   - OS sur la RAM (et fichiers/périfs GPIO monter sur la RAM ?)
   - Désactiver les services non utilisés
   - Multithreading ? Processus parallèles ?
