@@ -79,19 +79,19 @@ colortheme:
 
 ## Programmation code principal / IHM
 
- - Communication entre raspberry pi et arduino (binaire, i2c)
- - C++ / Qt
- - Interpretation G code 
- - Mise en place d'un grafcet (description des commandes->opérations)
+- Communication entre raspberry pi et arduino (binaire, i2c)
+- C++ / Qt
+- Interpretation G code 
+- Mise en place d'un grafcet (description des commandes->opérations)
 
 ## Programmation RT / PLC
- - Optimiser le système :
- ░░░░- Code et language+biblio opti au RT (norme GRAFCET utile également)
-  - Noyau RT (et tester différentes configurations)
-  - OS sur la RAM (et fichiers/périfs GPIO monter sur la RAM ?)
-  - Désactiver les services non utilisés
-  - Multithreading ? Processus parallèles ?
- - Utilisation de BENCHMARKs pour ÉVALUER les gains significatifs ou non, puis faire un CHOIX rationnel.
+- Optimiser le système :
+    - Code et language+biblio opti au RT (norme GRAFCET utile également)
+    - Noyau RT (et tester différentes configurations)
+    - OS sur la RAM (et fichiers/périfs GPIO monter sur la RAM ?)
+    - Désactiver les services non utilisés
+    - Multithreading ? Processus parallèles ?
+- Utilisation de BENCHMARKs pour ÉVALUER les gains significatifs ou non, puis faire un CHOIX rationnel.
 
 #reseau
 ![](networking.jpg) \
@@ -105,18 +105,18 @@ colortheme:
 
 \
 # Mecanique
- - Génération du mouvement :
-  - Servomoteur (moteur pas à pas, avec codeur rotatif et carte de controle).
-  - Moteur pas à pas + Codeur rotatif => Rpi4-rt fera office de carte de controle.
- - Transmission de puissance :
-  - Courroies, rapide mais élastique. Solutions la moins précise, mais la moins cher.
-  - Pignon + crémaillère, rapide et rigide. Assez précis mais trop cher.
-  - Roue + vis sans fin, plus lent et rigide. Solution la plus précise moyennement cher.
- - Guidage :
-  - Double douille. Moins cher et suffisament précis. Nécéssite l'usinage de l'alésage.
-  - Guidage à billes. Plus cher et un plus précis. Solution "clé en mains".
- - Bâti :
-  - Profilés + plaques de PMMA/métal.
+- Génération du mouvement :
+    - Servomoteur (moteur pas à pas, avec codeur rotatif et carte de controle).
+    - Moteur pas à pas + Codeur rotatif => Rpi4-rt fera office de carte de controle.
+    - Transmission de puissance :
+- Courroies, rapide mais élastique. Solutions la moins précise, mais la moins cher.
+    - Pignon + crémaillère, rapide et rigide. Assez précis mais trop cher.
+    - Roue + vis sans fin, plus lent et rigide. Solution la plus précise moyennement cher.
+- Guidage :
+    - Double douille. Moins cher et suffisament précis. Nécéssite l'usinage de l'alésage.
+    - Guidage à billes. Plus cher et un plus précis. Solution "clé en mains".
+- Bâti :
+    - Profilés + plaques de PMMA/métal.
 
 
 # LINKS 
@@ -143,21 +143,21 @@ colortheme:
 
 ## Linux-RT
 
- - Général :
-  - https://rt.wiki.kernel.org/index.php/Main_Page
-  - https://rt.wiki.kernel.org/index.php/HOWTO:_Build_an_RT-application
- - Interupt & context switch :
-  - https://www.quora.com/What-is-the-difference-between-context-switching-and-interrupt-handling
-  - https://notes.shichao.io/lkd/ch7/
-  - https://fr.wikipedia.org/wiki/Interruption_mat%C3%A9rielle
- - Préemption :
-  - https://devarea.developpez.com/linux-comprendre-preemption-noyau/
-  - https://fr.wikipedia.org/wiki/Multit%C3%A2che_pr%C3%A9emptif
- - Latency :
-  - http://people.redhat.com/williams/latency-howto/rt-latency-howto.txt
- - Jitter :
-  - https://www.youtube.com/watch?v=K44eRt852vs
-  - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwjDhof0odXjAhW85OAKHTKiC48QFjAEegQIAxAC&url=https%3A%2F%2Fwww.captronic.fr%2Fdocrestreint.api%2F2137%2Fa536f4bcc9ec4cd16ba821ebe9148dfdefcd70c9%2Fpdf%2F2_LINUXRT.pdf&usg=AOvVaw3U_sXhBrH2ROZliTbEPA1P
+- Général :
+    - https://rt.wiki.kernel.org/index.php/Main_Page
+    - https://rt.wiki.kernel.org/index.php/HOWTO:_Build_an_RT-application
+- Interupt & context switch :
+    - https://www.quora.com/What-is-the-difference-between-context-switching-and-interrupt-handling
+    - https://notes.shichao.io/lkd/ch7/
+    - https://fr.wikipedia.org/wiki/Interruption_mat%C3%A9rielle
+- Préemption :
+    - https://devarea.developpez.com/linux-comprendre-preemption-noyau/
+    - https://fr.wikipedia.org/wiki/Multit%C3%A2che_pr%C3%A9emptif
+- Latency :
+    - http://people.redhat.com/williams/latency-howto/rt-latency-howto.txt
+- Jitter :
+    - https://www.youtube.com/watch?v=K44eRt852vs
+    - https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwjDhof0odXjAhW85OAKHTKiC48QFjAEegQIAxAC&url=https%3A%2F%2Fwww.captronic.fr%2Fdocrestreint.api%2F2137%2Fa536f4bcc9ec4cd16ba821ebe9148dfdefcd70c9%2Fpdf%2F2_LINUXRT.pdf&usg=AOvVaw3U_sXhBrH2ROZliTbEPA1P
 
 
 ## Mecanique
