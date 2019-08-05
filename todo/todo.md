@@ -63,7 +63,7 @@ colortheme:
 
 - Se documenter en electronique
 
-- communication avec le laser (binaire/analogique en Volt)
+- Communication avec le laser (binaire/analogique en Volt)
 
 - Ajustabilite des lasers
 
@@ -79,11 +79,10 @@ colortheme:
 
 ## Programmation code principal / IHM
 
-- Communication entre raspberry pi et arduino (binaire, i2c)
-
-- C++ / qt
-
-- Interpretation G code 
+ - Communication entre raspberry pi et arduino (binaire, i2c)
+ - C++ / Qt
+ - Interpretation G code 
+ - Mise en place d'un grafcet (description des commandes->opérations)
 
 ## Programmation RT / PLC
  - Optimiser le système :
@@ -106,7 +105,18 @@ colortheme:
 
 \
 # Mecanique
-
+ - Génération du mouvement :
+  - Servomoteur (moteur pas à pas, avec codeur rotatif et carte de controle).
+  - Moteur pas à pas + Codeur rotatif => Rpi4-rt fera office de carte de controle.
+ - Transmission de puissance :
+  - Courroies, rapide mais élastique. Solutions la moins précise, mais la moins cher.
+  - Pignon + crémaillère, rapide et rigide. Assez précis mais trop cher.
+  - Roue + vis sans fin, plus lent et rigide. Solution la plus précise moyennement cher.
+ - Guidage :
+  - Double douille. Moins cher et suffisament précis. Nécéssite l'usinage de l'alésage.
+  - Guidage à billes. Plus cher et un plus précis. Solution "clé en mains".
+ - Bâti :
+  - Profilés + plaques de PMMA/métal.
 
 
 # LINKS 
@@ -114,6 +124,8 @@ colortheme:
 ![](links.jpeg) 
 
 
+- Communication entre raspberry pi et arduino (binaire, i2c)
+83
 # LINKS
 
 
