@@ -1,0 +1,9 @@
+
+- Tester avec :
+	- Différent language de programmation
+	- Tester différentes librairies
+	- Tester différents style de code (if remplacé par boucle, tailles de variables, etc...)
+
+- Mesurer avec :
+	- Fréquencemètre (multimètre)
+	- piscope (logiciel)

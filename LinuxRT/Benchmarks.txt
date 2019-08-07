@@ -1,0 +1,8 @@
+Consumption (sector socket)
+Temperature (sysbench 4 threads)
+sysbench - 1 thread
+sysbench - 4 threads
+sysbench ram
+rt-testsap
+GPIO on-off meseare min/max/avg frequencies (python vs c++ ?)
+
