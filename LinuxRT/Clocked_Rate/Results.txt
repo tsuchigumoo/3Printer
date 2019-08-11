@@ -1,0 +1,774 @@
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ python3 wiringPi_clocked.py 
+==========____START____==========
+Method 1 : Delays... use double in seconds
+Method 1 = 1.000000 Hz / 1 Hz. ==> 100.000000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 0.900000 Hz / 1 Hz. ==> 90.000000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 2.000000 Hz / 2 Hz. ==> 100.000000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 1.900000 Hz / 2 Hz. ==> 95.000000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 5.000000 Hz / 5 Hz. ==> 100.000000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 4.900000 Hz / 5 Hz. ==> 98.000000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 10.000000 Hz / 10 Hz. ==> 100.000000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 9.900000 Hz / 10 Hz. ==> 99.000000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 20.000000 Hz / 20 Hz. ==> 100.000000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 19.900000 Hz / 20 Hz. ==> 99.500000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 49.600000 Hz / 50 Hz. ==> 99.200000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 49.900000 Hz / 50 Hz. ==> 99.800000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 98.200000 Hz / 100 Hz. ==> 98.200000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 99.900000 Hz / 100 Hz. ==> 99.900000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 192.900000 Hz / 200 Hz. ==> 96.450000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 199.800000 Hz / 200 Hz. ==> 99.900000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 458.000000 Hz / 500 Hz. ==> 91.600000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 498.900000 Hz / 500 Hz. ==> 99.780000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 846.900000 Hz / 1000 Hz. ==> 84.690000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 995.800000 Hz / 1000 Hz. ==> 99.580000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 1472.200000 Hz / 2000 Hz. ==> 73.610000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 1983.600000 Hz / 2000 Hz. ==> 99.180000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 2640.800000 Hz / 5000 Hz. ==> 52.816000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 4898.000000 Hz / 5000 Hz. ==> 97.960000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 3590.500000 Hz / 10000 Hz. ==> 35.905000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 9580.200000 Hz / 10000 Hz. ==> 95.802000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 4536.600000 Hz / 20000 Hz. ==> 22.683000 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 18113.400000 Hz / 20000 Hz. ==> 90.567000 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 5267.900000 Hz / 50000 Hz. ==> 10.535800 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 43916.700000 Hz / 50000 Hz. ==> 87.833400 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 6388.700000 Hz / 100000 Hz. ==> 6.388700 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 72712.100000 Hz / 100000 Hz. ==> 72.712100 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 7000.900000 Hz / 200000 Hz. ==> 3.500450 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 105807.500000 Hz / 200000 Hz. ==> 52.903750 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 7184.400000 Hz / 500000 Hz. ==> 1.436880 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 106230.800000 Hz / 500000 Hz. ==> 21.246160 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 7200.300000 Hz / 1000000 Hz. ==> 0.720030 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 106417.000000 Hz / 1000000 Hz. ==> 10.641700 %
+Pause of 1s
+Method 1 : Delays... use double in seconds
+Method 1 = 7206.900000 Hz / 2000000 Hz. ==> 0.360345 %
+Pause of 1s
+Method 2 : Timings... use double in seconds
+Method 2 = 106124.400000 Hz / 2000000 Hz. ==> 5.306220 %
+Pause of 1s
+
+	------- Benchmark's results -------
+
+			 Method 1			 | Method 2
+
+
+			 1.000 Hz			 | 0.900 Hz
+
+
+			 2.000 Hz			 | 1.900 Hz
+
+
+			 5.000 Hz			 | 4.900 Hz
+
+
+			 10.000 Hz			 | 9.900 Hz
+
+
+			 20.000 Hz			 | 19.900 Hz
+
+
+			 49.600 Hz			 | 49.900 Hz
+
+
+			 98.200 Hz			 | 99.900 Hz
+
+
+			 192.900 Hz			 | 199.800 Hz
+
+
+			 458.000 Hz			 | 498.900 Hz
+
+
+			 846.900 Hz			 | 995.800 Hz
+
+
+			 1472.200 Hz			 | 1983.600 Hz
+
+
+			 2640.800 Hz			 | 4898.000 Hz
+
+
+			 3590.500 Hz			 | 9580.200 Hz
+
+
+			 4536.600 Hz			 | 18113.400 Hz
+
+
+			 5267.900 Hz			 | 43916.699 Hz
+
+
+			 6388.700 Hz			 | 72712.102 Hz
+
+
+			 7000.900 Hz			 | 105807.500 Hz
+
+
+			 7184.400 Hz			 | 106230.797 Hz
+
+
+			 7200.300 Hz			 | 106417.000 Hz
+
+
+			 7206.900 Hz			 | 106124.398 Hz
+
+
+==========____FINISHED____==========
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ sudo ./wiringPi_clocked
+===> Starting...
+
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+------- BENCHMARK's RESULTS -------
+ 			 Method 1 			 Method 2
+ 			 1.100 			 0.900
+
+ 			 2.100 			 1.900
+
+ 			 5.100 			 4.900
+
+ 			 10.100 			 9.900
+
+ 			 20.100 			 19.900
+
+ 			 49.700 			 49.900
+
+ 			 98.600 			 99.900
+
+ 			 194.300 			 199.600
+
+ 			 465.400 			 499.800
+
+ 			 873.000 			 999.600
+
+ 			 1551.700 			 1993.700
+
+ 			 2911.200 			 4980.000
+
+ 			 4121.600 			 9947.400
+
+ 			 5166.600 			 19750.900
+
+ 			 6172.500 			 48343.800
+
+ 			 6579.900 			 98477.300
+
+ 			 6812.200 			 180727.700
+
+ 			 6960.500 			 355580.400
+
+ 			 6988.000 			 636829.000
+
+ 			 7018.100 			 1022867.000
+
+finished !
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ sudo ./wiringPi_clocked_Ofast 
+===> Starting...
+
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+------- BENCHMARK's RESULTS -------
+ 			 Method 1 			 Method 2
+ 			 1.000 			 0.900
+
+ 			 2.100 			 1.900
+
+ 			 5.100 			 4.900
+
+ 			 10.100 			 9.900
+
+ 			 20.100 			 19.900
+
+ 			 49.800 			 49.800
+
+ 			 98.500 			 99.800
+
+ 			 194.100 			 199.600
+
+ 			 463.900 			 499.800
+
+ 			 872.900 			 999.400
+
+ 			 1556.700 			 1996.100
+
+ 			 2910.800 			 4980.600
+
+ 			 4109.600 			 9916.000
+
+ 			 5175.700 			 19793.300
+
+ 			 6134.600 			 49256.200
+
+ 			 6537.900 			 97436.600
+
+ 			 6777.500 			 176876.600
+
+ 			 6892.900 			 349508.400
+
+ 			 6951.600 			 901140.600
+
+ 			 7025.000 			 985766.300
+
+finished !
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ sudo ./sysfs_clocked
+===> Starting...
+
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+------- BENCHMARK's RESULTS -------
+ 			 Method 1 			 Method 2 			 Method 3
+ 			 1.000 			 0.900 			 1.000
+
+ 			 2.100 			 1.900 			 2.000
+
+ 			 5.100 			 4.900 			 5.000
+
+ 			 10.100 			 9.900 			 10.000
+
+ 			 20.000 			 19.900 			 20.000
+
+ 			 49.300 			 49.900 			 50.000
+
+ 			 97.100 			 99.800 			 100.000
+
+ 			 188.400 			 199.600 			 200.000
+
+ 			 434.400 			 499.600 			 499.900
+
+ 			 771.600 			 998.700 			 997.200
+
+ 			 1260.100 			 1995.000 			 1994.800
+
+ 			 2030.100 			 4951.600 			 4951.700
+
+ 			 3347.700 			 9685.300 			 9749.600
+
+ 			 4049.800 			 15761.800 			 18895.300
+
+ 			 4587.900 			 15709.000 			 20737.700
+
+ 			 4847.500 			 15704.400 			 20768.000
+
+ 			 4977.400 			 15575.400 			 20687.100
+
+ 			 5056.900 			 15703.100 			 20666.600
+
+ 			 5057.400 			 15673.900 			 20744.400
+
+ 			 5103.900 			 15712.800 			 20781.600
+
+finished !
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ sudo ./sysfs_clocked_Ofast 
+===> Starting...
+
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+---> Method 1 : with delays (resolution in ns)
+pause of 1 second...
+---> Method 2 : with timing (resolution=ns)
+pause of 1 second...
+---> Method 3 bis : with timing & system call 'open()' (resolution=ns)
+pause of 1 second...
+------- BENCHMARK's RESULTS -------
+ 			 Method 1 			 Method 2 			 Method 3
+ 			 1.100 			 0.900 			 1.000
+
+ 			 2.100 			 1.900 			 2.000
+
+ 			 5.100 			 4.900 			 5.000
+
+ 			 10.100 			 9.900 			 10.000
+
+ 			 20.000 			 19.900 			 20.000
+
+ 			 49.400 			 49.900 			 50.000
+
+ 			 97.100 			 99.900 			 100.000
+
+ 			 188.800 			 199.800 			 200.000
+
+ 			 434.800 			 498.500 			 500.000
+
+ 			 771.000 			 998.200 			 999.300
+
+ 			 1266.600 			 1995.100 			 1995.800
+
+ 			 2048.400 			 4940.900 			 4955.800
+
+ 			 3354.300 			 9734.100 			 9749.000
+
+ 			 4045.900 			 15666.700 			 18899.000
+
+ 			 4597.100 			 15688.900 			 20538.400
+
+ 			 4860.100 			 15661.600 			 20800.500
+
+ 			 4968.600 			 15531.200 			 20613.900
+
+ 			 5047.200 			 15674.600 			 20640.100
+
+ 			 5060.200 			 15714.700 			 20466.400
+
+ 			 5091.600 			 15704.300 			 20677.900
+
+finished !
+pi@raspberrypi:~/Documents/rpi_testing/Clocked_Rate $ 
