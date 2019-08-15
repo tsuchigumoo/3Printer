@@ -1,6 +1,18 @@
 #!/usr/bin/python3
 #-*- coding: utf-8 -*-
 
+
+#   Run at desired frequencies
+#   Program in Python, using unofficial port of Gordon's WiringPi library
+#       see here : https://github.com/WiringPi/WiringPi-Python
+#   I use WiringPi pin numbering scheme. 
+#   Also here, we investigate the capability to reach some desired frequencies with Delays or Timings based algorithms
+
+
+
+
+
+
 import numpy
 import wiringpi
 import time

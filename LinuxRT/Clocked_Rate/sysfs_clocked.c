@@ -1,5 +1,11 @@
-// Run at desired frequency
-// Program in C, using only C and Linux' sysfs 
+//  Run at desired frequencies
+//  Program in C, using only C and Linux' sysfs 
+
+//  Based on file blink.c from Guillermo A. Amaral B. <g@maral.me>
+//      see here for code : https://elinux.org/RPi_GPIO_Code_Samples
+//  (un)-export, read/write (using Linux system calls) and setting direction functions 
+//  I've added Stdio fwrite functions for comparison
+//  Also here, we investigate the capability to reach some desired frequencies with Delays or Timings based algorithms
 
 
 #include <stdio.h>
@@ -7,7 +13,6 @@
 #include <string.h>
 #include <unistd.h>
 #include <time.h>
-#include <limits.h>
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <fcntl.h>

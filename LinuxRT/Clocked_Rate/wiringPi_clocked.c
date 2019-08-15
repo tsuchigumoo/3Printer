@@ -1,5 +1,10 @@
-// Run at desired frequency
-// Program in C, using WiringPi library
+//  Run at desired frequencies
+//  Program in C, using WiringPi library from Gordon Henderson (now deprecated)
+
+//  Based on blink.c from Gordon Henderson
+//      see here : http://wiringpi.com/examples/blink/
+//  I use WiringPi pin numbering scheme. 
+//  Also here, we investigate the capability to reach some desired frequencies with Delays or Timings based algorithms
 
 
 #include <stdio.h>
